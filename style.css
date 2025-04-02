@@ -1,9 +1,10 @@
 body {
-  background-color: aliceblue;
+  background-color: green;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
+
 /*   margin-top: 10%; */
   font-family: Georgia, serif;
 }
@@ -14,23 +15,31 @@ html{
 }
 
 #myCanvas {
-  border: 1px solid black;
+  border: 1px solid green;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:1000px;
+  height:650px;
+    background-image: url("https://media.istockphoto.com/id/1436040893/vector/beautiful-jungle-waterfall.jpg?s=612x612&w=0&k=20&c=0QDETo_7vl5E3Gejf4MTVgop_okXv27HLTKsi4rXts4="); 
+    object-fit: cover;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: green;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
+
+      
 }
 
 .pic{
   height: 450px;
   width: 600px;
   object-fit: cover;
-  border: 1px solid black;
+  border: 1px solid green;
 }
 
 h2{
@@ -42,6 +51,4 @@ h2{
   text-align: left;
 }
 
-#end{
-  text-align: right;
-}
+
